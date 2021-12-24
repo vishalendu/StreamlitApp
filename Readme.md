@@ -10,7 +10,7 @@ It has a Side Navigation Bar that has three Options:
 
 config.py
 ----------
-This has important properties that you need for Twitter integration, you have to provide "TWITTER_BEARER" to call Twitter v2.0 APIs
+This has important properties that you need for Twitter integration, you have to provide "TWITTER_BEARER" (Auth Bearer Token) to call Twitter v2.0 APIs
 If you dont have a Twitter developer account, creating a new one and getting the key is simple, it would hardly take 15-20 minutes.
 
 I had to get the Twitter User's userid by calling another API. I have removed that step in this code by creating a list of userid.
